@@ -1,0 +1,24 @@
+{
+    "name": "sauna-occupancy-script",
+    "version": "1.0.0",
+    "description": "Scrape sauna occupancy and save it to firebase.",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node index.ts"
+    },
+    "author": "Ing. Daniel Pátek",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.7.7",
+        "cheerio": "^1.0.0",
+        "firebase-admin": "^12.6.0",
+        "node-cron": "^3.0.3"
+    },
+    "devDependencies": {
+        "@types/cheerio": "^0.22.35",
+        "@types/node": "^22.7.7",
+        "@types/node-cron": "^3.0.11",
+        "typescript": "^5.6.3"
+    }
+}
